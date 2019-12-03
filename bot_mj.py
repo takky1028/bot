@@ -19,13 +19,13 @@ async def on_message(message):
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
-    if message.content == 'mj_lovemj_love':
+    if message.content == 'mj_lv':
         await message.channel.send("<@!588392127919161357>" + '　mj大好き💚')
     elif message.content == 'mj_gm':
         await message.channel.send("<@!588392127919161357>" + '　mjおはよ️️️💚')
     elif message.content == 'mj_gt':
         await message.channel.send("<@!588392127919161357>" + '　mjないとれだよ💙')
-    elif message.content == 'mj_fight':
+    elif message.content == 'mj_ft':
         await message.channel.send("<@!588392127919161357>" + '　mj今日も頑張れ💛')
 
 # Botの起動とDiscordサーバーへの接続
